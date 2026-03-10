@@ -1,0 +1,147 @@
+body{
+    font-family:Arial;
+    margin:0;
+    padding:20px;
+    background:#f5f7fa;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.compare-btn{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.compare-btn a{
+    background:#2d8cf0;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:6px;
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    max-width:1000px;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.card h2{
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.stars{
+    font-size:18px;
+    margin:10px 0;
+}
+
+.detail-btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 16px;
+    background:#19be6b;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.table-container{
+    max-width:1000px;
+    margin:auto;
+    overflow-x:auto;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+th,td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+    text-align:center;
+}
+
+th{
+    background:#f0f2f5;
+}
+
+.format-title{
+    text-align:center;
+    margin-top:40px;
+}
+
+.format-block{
+    max-width:1000px;
+    margin:20px auto;
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.example-table-container{
+    overflow-x:auto;
+    margin-top:10px;
+}
+
+.example-table{
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 400px; /* 确保手机可滑动 */
+}
+
+.example-table th, .example-table td{
+    padding:8px 12px;
+    border:1px solid #ddd;
+    text-align:center;
+    white-space: nowrap;
+}
+
+.example-table th{
+    background:#f0f2f5;
+    font-weight:600;
+}
+
+
+.example-data{
+    margin-top:10px;
+}
+
+.example-row{
+    background:#f9f9f9;
+    padding:6px 12px;
+    margin:4px 0;
+    border-radius:6px;
+    font-size:14px;
+    overflow-x:auto;
+    white-space: nowrap;
+}
+
+.tag-list{
+    margin-top:10px;
+}
+
+.tag{
+    display:inline-block;
+    background:#eef2f7;
+    padding:6px 12px;
+    margin:5px;
+    border-radius:6px;
+    font-size:14px;
+}
